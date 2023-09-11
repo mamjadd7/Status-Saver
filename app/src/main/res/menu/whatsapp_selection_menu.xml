@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/groupButton"
+        android:checkableBehavior="single">
+        <item android:id="@+id/menu_whatsapp_status"
+            android:iconTint="@color/whatsappColor"
+            android:title="Whatsapp"/>
+        <item android:id="@+id/menu_whatsapp_business_status"
+            android:title="Whatsapp Business"/>
+    </group>
+</menu>

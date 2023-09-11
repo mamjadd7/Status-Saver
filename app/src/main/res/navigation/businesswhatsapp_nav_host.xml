@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/businesswhatsapp_nav_host"
+    app:startDestination="@id/businessWhataappFragment">
+
+    <fragment
+        android:id="@+id/businessWhataappFragment"
+        android:name="com.example.savewhatsapp.ui.businesswhatsapp.BusinessWhataappFragment"
+        android:label="fragment_business_whataapp"
+        tools:layout="@layout/fragment_business_whataapp" />
+    <fragment
+        android:id="@+id/settingsFragment3"
+        android:name="com.example.savewhatsapp.ui.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/downloadFragment"
+        android:name="com.example.savewhatsapp.ui.downloads.DownloadFragment"
+        android:label="fragment_download"
+        tools:layout="@layout/fragment_download" />
+</navigation>

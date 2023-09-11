@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/dotted_loader_drawable.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Change the color of the dots to your desired color -->
+    <item android:id="@android:id/background">
+        <shape android:shape="oval">
+            <size
+                android:width="8dp"
+                android:height="8dp" />
+            <solid android:color="#D3D3D3" />
+        </shape>
+    </item>
+
+    <!-- Change the color of the loading dots to your desired color -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="oval">
+                <size
+                    android:width="8dp"
+                    android:height="8dp" />
+                <solid android:color="#007BFF" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

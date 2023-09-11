@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/whatsappFragment"
+        android:icon="@drawable/status_icon"
+        android:enabled="true"
+        android:title="Status"
+        />
+    <item
+        android:id="@+id/downloadFragment2"
+        android:icon="@drawable/downloads"
+        android:enabled="true"
+        android:title="Downloads"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/settings_icon"
+        android:enabled="true"
+        android:title="Settings"
+
+        />
+</menu>
