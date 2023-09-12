@@ -36,19 +36,19 @@
 
             <include
                 android:id="@+id/contact_Us"
-                layout="@layout/include_settings" />
+                layout="@layout/include_settings_contact" />
 
             <include
-                android:id="@+id/shareAPp"
-                layout="@layout/include_settings" />
+                android:id="@+id/shareApp"
+                layout="@layout/include_settings_share_app" />
 
             <include
                 android:id="@+id/privacyPolicy"
-                layout="@layout/include_settings" />
+                layout="@layout/include_settings_privacy_policy" />
 
             <include
                 android:id="@+id/howTOUse"
-                layout="@layout/include_settings" />
+                layout="@layout/include_settings_how_to_use" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
